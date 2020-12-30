@@ -67,7 +67,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 square3.classList.contains('player-one') &&
                 square4.classList.contains('player-one')) {
                 //if they do, player-one is a winner
-                result.innerHTML = 'Player One wins'
+                result.innerHTML = 'Player One Wins'
+                alert('PLayer One Wins!')
+
             }
             //now check to see if they all have the class of player-two
             else if (square1.classList.contains('player-two') &&
@@ -75,7 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 square3.classList.contains('player-two') &&
                 square4.classList.contains('player-two')) {
                 //if they do, player-two is a winner
-                result.innerHTML = 'Player Two wins'
+                result.innerHTML = 'Player Two Wins'
+                alert('PLayer Two Wins!')
             }
         }
     }
